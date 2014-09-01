@@ -1,0 +1,74 @@
+@import "variables.less";
+@import "flexbox.less";
+@import "mixins.less";
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+
+body {
+	font-family: @font-base-family;
+	font-size: @font-base-size;
+	font-weight: @font-base-weight;
+	background-color: @color-site-background;
+	width: 100%;
+	padding: 2em;
+	margin: 0;
+	color: @color-text;
+	font-family: @font-base-family;
+}
+
+.main {
+	margin: 3em auto;
+}
+
+button, .button {
+	display: inline-block;
+	border: 0px;
+	padding: 0.5em 3em;
+
+	font-family: @font-base-family;
+	font-size: @font-base-size;
+
+	&:hover {
+		background-color: red;
+	}
+
+	&:active {
+		position: relative;
+		top: 1px;
+	}
+
+	&:focus {
+		outline: 0px;
+	}
+
+	&:disabled {
+		background-color: #aaa;
+		&:active {
+			top: 0px;
+		}
+	}
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-weight: lighter;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-weight: lighter;
+	font-size: 1.2em;
+}
+
+h4 {
+	font-weight: lighter;
+	font-size: 1.1em;
+}

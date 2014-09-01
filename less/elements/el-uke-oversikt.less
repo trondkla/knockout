@@ -1,0 +1,28 @@
+@import "../flexbox";
+
+.el-uke-oversikt {
+	margin: 1em auto;
+
+	.flexbox;
+	.flex-flow(row wrap);
+	.justify-content(space-between);
+
+	.uke-oversikt-dag {
+		margin: 1em;
+
+		.tittel {
+			display: inline-flex;
+			margin: 1em 0;
+		}
+
+		> ul {
+			position: relative;
+
+			> li {
+				//position: absolute;
+				//top: 0;
+			}
+		}	
+	}
+	
+}

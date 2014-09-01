@@ -1,0 +1,32 @@
+{
+  "name": "knockout-test",
+  "description": "Testing out knockout",
+  "author": "Trond Klakken",
+  "version": "0.1.0",
+  "repository": "https://github.com/trondkla/knockout",
+  "dependencies": {
+    "knockout": "",
+    "browserify": "^5.9.1",
+    "ecstatic": "",
+    "font-awesome": "^4.1.0",
+    "gulp": "",
+    "gulp-clean": "",
+    "gulp-concat": "",
+    "gulp-jshint": "^1.8.4",
+    "gulp-less": "",
+    "gulp-livereload": "^2.1.0",
+    "gulp-notify": "^1.4.1",
+    "gulp-plumber": "^0.6.4",
+    "jquery": "^2.1.1",
+    "merge-stream": "^0.1.5",
+    "underscore": "^1.6.0",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "scripts": {
+    "install": "gulp deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "jshint-stylish": "^0.4.0"
+  }
+}
